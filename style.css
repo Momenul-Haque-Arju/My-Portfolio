@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar-slide{
+    width: 2.5cm;
+    height: 100%;
+    position:fixed;
+    margin: 0;
+    padding: 15px;
+} 
+.navbar{
+    height: 2.5cm;
+    width: 2.5cm;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    transition: all .8s ease-out; 
+} 
+.navbar:hover{
+    margin-left: .7cm;
+    background-color: darkgray;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.main{
+    margin-left: 6cm;
+    margin-right: 4cm;
+    margin-top: 1.52cm;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 3rem;
+    font-style: italic;
+}
+
+header img{
+    height: 70%;
+    width: 80%;
+    margin: 2rem 0 4rem 0;
+}
+
+.about h2{
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+.about h3{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.about p{
+    line-height: 1.3rem;
+    margin: 1.8rem 0 1rem 1rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    color: gray;
+}
+.div{
+    margin: 0 0 2.2rem 1rem;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    height: 3cm;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+.span span{
+    font-size: 1.7rem;
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.lib h3{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.reputation{
+    margin: 3rem 1rem 7rem 2rem;
+}
+
+.repu-profile img{
+    width: 8rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-left: .6rem;
+}
+.repu2-profile img{
+    width: 10rem;
+    border-radius: 50%;
+    margin-right: 1.4rem;
+}
+
+.write{
+    color: lightslategray;
+    line-height: 2.2rem;
+}
+
+.repu-profile{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+.repu2-profile{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact h2{
+    margin: 4rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+.library h2{
+    margin: 2rem 0 2rem 0;
+    font-size: 2rem;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col img{
+    width: 27rem;
+    margin: .51rem;
+}
+.row img{
+    width: 27rem;
+    height: 20.5rem;
+    margin: .51rem;
+}
+
+.information{
+    font-size: 1rem;
+    font-family: sans-serif;
+    display: flex;
+    padding: 20px;
+    gap: 1rem;
+}
+.information i{
+    font-size: 1.82rem;
+}
+.information p{
+    margin-top: .41rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.send-msg input{
+    margin: .71rem 0 0 .71rem;
+    border: 2.5px solid #f0f0f0f0;
+    border-radius: 5px;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.send-msg textarea{
+    margin: .71rem 0 0 .71rem;
+    border-radius: 5px;
+    display: block;
+    resize: none;
+    width: 70%;
+    padding: 10px;
+    height: 17px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2.5px solid #f0f0f0f0;
+}
+
+.send-msg textarea:focus-visible{
+    outline: 0;
+    border-color: #757581;
+}
+
+.send-msg input:focus{
+    outline: 0;
+    border-color: #737375;
+}
+
+#msg{
+    max-height: 330px;
+    align-items: center;
+} 
+#msg::-webkit-scrollbar{
+    width: 0;
+}
+button{
+    width: 10rem;
+    padding: 15px;
+    margin: 1.5rem 0 0 .71rem;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 1rem;
+    transition: all .6s ease-in-out;
+}
+.container p{
+    margin-bottom: .1px;
+}
+
+button:hover{
+    width: 12rem;
+    background-color: powderblue;
+    cursor: pointer;
+}
+
+footer{
+    margin: 0 4cm 1cm 4cm;
+}
+.fb-logo{
+    height: 2cm;
+    width: 2cm;
+}
+.insta-logo{
+    height: 1.2cm;
+    width: 1.2m;
+    border-radius: .5rem;
+}
+ .footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#linkdin{
+    color: grey;
+    font-size: 2.2rem;
+    
+} 
+
+#name-error, #email-error, #msg-error{
+    margin: .71rem 0 0 .71rem;
+    color: rgb(247, 50, 50);
+    font-family: 'Poppins', serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.send-msg.success input{
+    border-color: #2ecc71;
+}
+.send-msg.error input{
+    border-color: #e74c3e;
+}
+.send-msg.success textarea{
+    border-color: #03fa6a;
+}
+.send-msg.error textarea{
+    border-color: #fe1500;
+}

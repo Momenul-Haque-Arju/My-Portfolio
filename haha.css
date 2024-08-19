@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 77.6vh;
+    color: black;
+    background: linear-gradient(#4671EA, #AC34E7);
+}
+
+.haha{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4cm 0 3cm 0;
+}
+
+.haha p{
+    font-size: 5rem;
+}
+
+#emojy{
+    font-size: 10rem;
+}
